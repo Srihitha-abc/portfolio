@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srihitha Chittampally - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">SC</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Srihitha Chittampally</span></h1>
+            <p class="hero-subtitle">I'm a <span class="typing"></span></p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <p>
+                        I am a Computer Science and Engineering(Data Science) undergraduate with a strong academic foundation and an interest in problem-solving. I enjoy working on logical challenges and building practical solutions through programming.
+                    </p>
+                    <p>
+                        I have hands-on experience in programming fundamentals, basic analysis techniques, and implementing concepts through academic projects. I am eager to learn new technologies and apply my skills to real-world challenges.
+                    </p>
+                    <p>
+                        My interests span across data science, web development, and computer vision. I believe in continuous learning and collaboration to create impactful solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Customer Segmentation Using Clustering for Digital Detox</h3>
+                    <p class="project-date"><strong>Year:</strong> 2025</p>
+                    <p class="project-description">
+                        Analyzed patterns of digital device usage by collecting structured user data and performing data cleaning and normalization. Applied K-Means++ clustering to group users based on screen time, sleep hours, stress levels, and productivity. Documented cluster observations to suggest practical digital detox recommendations.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">K-Means++</span>
+                        <span class="tech-tag">Data Science</span>
+                        <span class="tech-tag">Machine Learning</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/Srihitha-abc/Customer-segementation-using-clustering" target="_blank" class="btn btn-small">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <h3>Sign Language Recognition System</h3>
+                    <p class="project-date"><strong>Year:</strong> 2025</p>
+                    <p class="project-description">
+                        Developed a gesture recognition prototype that captures hand movements through a webcam and converts them into text. Used MediaPipe to extract hand landmarks and applied a trained model to classify hand gestures. Focused on understanding computer vision workflows and real-time prediction processes.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">MediaPipe</span>
+                        <span class="tech-tag">Computer Vision</span>
+                        <span class="tech-tag">OpenCV</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" class="btn btn-small">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+                <!-- Programming Languages Section -->
+                <div class="skills-section fade-in">
+                    <h3 class="skills-section-title">
+                        <i class="fas fa-code"></i> Programming Languages
+                    </h3>
+                    <p class="skills-section-desc">Core languages for systems and application development</p>
+                    <div class="skills-grid-icons">
+                        <div class="skill-card skill-animate" data-skill="python">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="c">
+                            <i class="fas fa-c"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="cpp">
+                            <i class="fas fa-c"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="java">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Technologies Section -->
+                <div class="skills-section fade-in">
+                    <h3 class="skills-section-title">
+                        <i class="fas fa-globe"></i> Web Technologies
+                    </h3>
+                    <p class="skills-section-desc">Frontend technologies for web development</p>
+                    <div class="skills-grid-icons">
+                        <div class="skill-card skill-animate" data-skill="html">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="css">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="js">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript <small>(basic)</small></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database Section -->
+                <div class="skills-section fade-in">
+                    <h3 class="skills-section-title">
+                        <i class="fas fa-database"></i> Database and DBMS
+                    </h3>
+                    <p class="skills-section-desc">Database design, normalization, and query optimization</p>
+                    <div class="skills-grid-icons">
+                        <div class="skill-card skill-animate" data-skill="mysql">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="sql">
+                            <i class="fas fa-code"></i>
+                            <span>SQL Fundamentals</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="normalization">
+                            <i class="fas fa-sitemap"></i>
+                            <span>Normalization Concepts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Science Section -->
+                <div class="skills-section fade-in">
+                    <h3 class="skills-section-title">
+                        <i class="fas fa-chart-bar"></i> Data Science Concepts
+                    </h3>
+                    <p class="skills-section-desc">Data analysis, preprocessing, and machine learning concepts</p>
+                    <div class="skills-grid-icons">
+                        <div class="skill-card skill-animate" data-skill="preprocessing">
+                            <i class="fas fa-filter"></i>
+                            <span>Data Preprocessing</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="clustering">
+                            <i class="fas fa-cube"></i>
+                            <span>Basic Clustering</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="scaling">
+                            <i class="fas fa-sliders-h"></i>
+                            <span>Feature Scaling</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Environments Section -->
+                <div class="skills-section fade-in">
+                    <h3 class="skills-section-title">
+                        <i class="fas fa-tools"></i> Tools and Environments
+                    </h3>
+                    <p class="skills-section-desc">Development environments and productivity tools</p>
+                    <div class="skills-grid-icons">
+                        <div class="skill-card skill-animate" data-skill="vscode">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="eclipse">
+                            <i class="fab fa-java"></i>
+                            <span>Eclipse</span>
+                        </div>
+                        <div class="skill-card skill-animate" data-skill="jupyter">
+                            <i class="fas fa-book"></i>
+                            <span>Jupyter Notebook</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <!-- Degree 1 -->
+                <div class="education-card fade-in">
+                    <div class="education-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Bachelor of Technology</h3>
+                    </div>
+                    <p class="degree">Computer Science and Engineering (Data Science)</p>
+                    <p class="institution">VNR Vignana Jyothi Institute of Engineering and Technology</p>
+                    <p class="details"><strong>CGPA:</strong> 9.83</p>
+                    <p class="details"><strong>Duration:</strong> 2024 – 2028</p>
+                </div>
+
+                <!-- Degree 2 -->
+                <div class="education-card fade-in">
+                    <div class="education-header">
+                        <i class="fas fa-book"></i>
+                        <h3>Intermediate (Class XII)</h3>
+                    </div>
+                    <p class="degree">Senior Secondary Education</p>
+                    <p class="institution">Sri Chaitanya Junior College</p>
+                    <p class="details"><strong>Percentage:</strong> 98.1%</p>
+                    <p class="details"><strong>Duration:</strong> 2022 – 2024</p>
+                </div>
+
+                <!-- Degree 3 -->
+                <div class="education-card fade-in">
+                    <div class="education-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Secondary School (Class X)</h3>
+                    </div>
+                    <p class="degree">Secondary Education</p>
+                    <p class="institution">Sri Chaitanya School</p>
+                    <p class="details"><strong>GPA:</strong> 10</p>
+                    <p class="details"><strong>Year:</strong> 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section id="achievements" class="section achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Recognition</h2>
+            <div class="achievements-list">
+                <div class="achievement-item fade-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h4>Top 100 Coders Contest</h4>
+                        <p>Secured 52nd rank at VNR Vignana Jyothi Institute of Engineering and Technology, competing among students from multiple branches.</p>
+                    </div>
+                </div>
+
+                <div class="achievement-item fade-in achievement-codechef">
+                    <div class="achievement-icon achievement-icon-codechef">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h4>CodeChef Profile</h4>
+                        <p>I use CodeChef as a platform to practice programming and enhance my coding skills. Solving problems on a regular basis helps me improve my speed, accuracy, and logical approach.</p>
+                        <div class="achievement-buttons">
+                            <a href="https://www.codechef.com/users/srihitha_2006" target="_blank" rel="noopener noreferrer" class="btn btn-small">
+                                <i class="fas fa-code"></i> View Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-item fade-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h4>Hackathon Participant</h4>
+                        <p>Regular participant in hackathons, bringing innovative ideas and practical solutions to real-world problems.</p>
+                    </div>
+                </div>
+
+                <div class="achievement-item fade-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h4>VJ Data Questers Member</h4>
+                        <p>Member of the Data Science and Analytics club, working on data-driven projects and research.</p>
+                    </div>
+                </div>
+
+                <div class="achievement-item fade-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h4>ISTE Student Chapter Volunteer</h4>
+                        <p>I am a volunteer in the ISTE Student Chapter and look forward to contributing to future events and activities.</p>
+                    </div>
+                </div>
+
+                <div class="achievement-item fade-in">
+                    <div class="achievement-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h4>VJ ARC Member</h4>
+                        <p>Part of the Advanced Research and Computing club, exploring cutting-edge technologies and advanced concepts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume" class="section resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content fade-in">
+                <p>Download my resume to learn more about my qualifications and experience.</p>
+                <a href="assets/Resume.pdf" download class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form fade-in">
+                    <h3>Send me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p class="form-note" id="formNote"></p>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info fade-in">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <p class="label">Email</p>
+                            <a href="mailto:kopulasrihitha06@gmail.com">kopulasrihitha06@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <p class="label">Phone</p>
+                            <a href="tel:+919100566289">+91 9100566289</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-linkedin"></i>
+                        <div>
+                            <p class="label">LinkedIn</p>
+                            <a href="https://www.linkedin.com/in/srihitha-chittampally-4856b234b/" target="_blank">Srihitha Chittampally</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-github"></i>
+                        <div>
+                            <p class="label">GitHub</p>
+                            <a href="https://github.com/Srihitha-abc" target="_blank">Srihitha-abc</a>
+                        </div>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/srihitha-chittampally-4856b234b/" target="_blank" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Srihitha-abc" target="_blank" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:kopulasrihitha06@gmail.com" class="social-icon" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Srihitha Chittampally. All rights reserved.</p>
+            <p>Designed & Built using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
